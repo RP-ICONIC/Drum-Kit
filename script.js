@@ -20,37 +20,37 @@ function makeSound(key)
     switch(key)
     {
         case "w":
-            var s1 = new Audio("Roland R-8/R8-808-1.wav");
+            var s1 = new Audio("R8-808-1.wav");
             s1.play();
             break;
 
         case "a":
-            var s2 = new Audio("Roland R-8/R8-Cl-Hi-Hat.wav")
+            var s2 = new Audio("R8-Cl-Hi-Hat.wav")
             s2.play();
             break;
 
         case "s":
-            var s3 = new Audio("Roland R-8/R8-Conga.wav")
+            var s3 = new Audio("R8-Conga.wav")
             s3.play();
             break;
 
         case "d":
-            var s4 = new Audio("Roland R-8/R8-Crash.wav")
+            var s4 = new Audio("R8-Crash.wav")
             s4.play();
             break;
                 
         case "j":
-            var s5 = new Audio("Roland R-8/R8-Hi-Tom.wav")
+            var s5 = new Audio("R8-Hi-Tom.wav")
             s5.play();
             break;
 
         case "k":
-            var s6 = new Audio("Roland R-8/R8-Low-Tom.wav")
+            var s6 = new Audio("R8-Low-Tom.wav")
             s6.play();
             break;
 
         case "l":
-            var s7 = new Audio("Roland R-8/R8-Snare-5.wav")
+            var s7 = new Audio("R8-Snare-5.wav")
             s7.play();
             break;
 
