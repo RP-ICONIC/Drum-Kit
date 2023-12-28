@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+
+button{
+    font-size: 60px;
+    height: 160px;
+    width: 160px;
+}
+
+.pressed{
+    background: rgb(149, 146, 146);
+    font-size: 55px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 0 white;
+    opacity: 0.5;
+}
+
+@media (max-width: 540px)
+{
+    h1{
+        font-size: 60px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    button{
+        font-size: 40px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .pressed{
+        background: rgb(149, 146, 146);
+        font-size: 35px;
+        border: 2px solid black;
+        box-shadow: 3px 3px 3px 0 white;
+        opacity: 0.5;
+    }
+
+    h2{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+}
